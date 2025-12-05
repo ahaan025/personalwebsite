@@ -1,0 +1,124 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Inter",
+      "role": "body"
+    },
+    {
+      "family": "Roboto",
+      "role": "body"
+    },
+    {
+      "family": "Segoe UI",
+      "role": "body"
+    },
+    {
+      "family": "Helvetica",
+      "role": "body"
+    },
+    {
+      "family": "Arial",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#C5CBD6",
+    "accent": "#A3ADBA",
+    "background": "#11131A",
+    "textPrimary": "#11131A",
+    "link": "#A3ADBA"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Inter",
+      "heading": "Inter"
+    },
+    "fontStacks": {
+      "heading": [
+        "Inter",
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica",
+        "Arial",
+        "sans-serif"
+      ],
+      "body": [
+        "Inter",
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica",
+        "Arial",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Inter",
+        "system-ui",
+        "-apple-system",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica",
+        "Arial",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "56px",
+      "h2": "22px",
+      "body": "16px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "12px"
+  },
+  "components": {
+    "input": {
+      "borderColor": "#CCCCCC",
+      "borderRadius": "12px"
+    },
+    "buttonPrimary": {
+      "background": "#11131A",
+      "textColor": "#0B0C10",
+      "borderRadius": "12px",
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "https://iamtejasmehta.com/google-logo.svg",
+    "favicon": null,
+    "ogImage": null
+  },
+  "__framework_hints": [],
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 0,
+      "text": "Watch Launch",
+      "reasoning": "The button 'Watch Launch' is selected as the primary CTA because it has action-oriented text and is the only button present in the color group that is vibrant and stands out as a call to action. Both buttons share the same background color, but since they are the only options, I have chosen the first one as primary."
+    },
+    "secondary": {
+      "index": -1,
+      "text": "N/A",
+      "reasoning": "There is no valid secondary button because both buttons share the same background color, which does not meet the requirement for a secondary button. Therefore, secondaryButtonIndex is set to -1."
+    },
+    "confidence": 0.85
+  },
+  "personality": {
+    "tone": "modern",
+    "energy": "medium",
+    "targetAudience": "tech-savvy individuals and professionals"
+  },
+  "designSystem": {
+    "framework": "unknown",
+    "componentLibrary": null
+  },
+  "confidence": {
+    "buttons": 0.85,
+    "colors": 0.9,
+    "overall": 0.875
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Inter",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#1F2937",
+    "accent": "#2563EB",
+    "background": "#FFFFFF",
+    "textPrimary": "#1F2937",
+    "link": "#1F2937"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Inter",
+      "heading": "Inter"
+    },
+    "fontStacks": {
+      "heading": [
+        "Inter",
+        "sans-serif"
+      ],
+      "body": [
+        "Inter",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Inter",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "64px",
+      "h2": "64px",
+      "body": "16px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "6px"
+  },
+  "components": {
+    "input": {
+      "borderColor": "#CCCCCC",
+      "borderRadius": "6px"
+    },
+    "buttonPrimary": {
+      "background": "#2563EB",
+      "textColor": "#FFFFFF",
+      "borderRadius": "50px",
+      "shadow": "rgba(0, 0, 0, 0.1) 0px 4px 6px -1px"
+    },
+    "buttonSecondary": {
+      "background": "#FFFFFF",
+      "textColor": "#FFFFFF",
+      "borderRadius": "12px",
+      "shadow": "rgba(37, 99, 235, 0.3) 0px 4px 15px 0px"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.bin",
+    "favicon": "File saved at: attached_assets/favicon.jpg",
+    "ogImage": null
+  },
+  "__framework_hints": [],
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 2,
+      "text": "View My Work",
+      "reasoning": "Button #2 has a vibrant blue background (#2563EB) and white text, making it stand out as the primary call-to-action. It also has action-oriented text 'View My Work', which aligns with typical primary CTA characteristics."
+    },
+    "secondary": {
+      "index": 6,
+      "text": "See More Experiences",
+      "reasoning": "Button #6 has a white background (#FFFFFF) and is distinctly different from the primary button's vibrant blue. It serves as a less prominent action, fitting the secondary role with the text 'See More Experiences'."
+    },
+    "confidence": 0.95
+  },
+  "personality": {
+    "tone": "modern",
+    "energy": "medium",
+    "targetAudience": "creative professionals"
+  },
+  "designSystem": {
+    "framework": "tailwind",
+    "componentLibrary": null
+  },
+  "confidence": {
+    "buttons": 0.95,
+    "colors": 0.9,
+    "overall": 0.925
+  }
+}
